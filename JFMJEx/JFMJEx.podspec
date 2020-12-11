@@ -18,13 +18,13 @@ Add long description of the pod here.
   s.homepage         = 'https://github.com/JFSwift/JFMJEx'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JFSwift' => '641964483@qq.com' }
-  s.source           = { :git => 'git@github.com: JFSwift/JFMJEx.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/JFSwift/JFMJEx.git', :tag => s.version.to_s }
 
-  s.platform         = :ios, "8.0"
+  s.platform         = :ios, "9.0"
 
   s.requires_arc     = true
 
-  s.source_files = "JFMJEx/Refresh/**/*.{h,m}"
+  s.source_files = "JFMJEx/Refresh/*"
 
   s.dependency 'MJRefresh'
 
